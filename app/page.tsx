@@ -6,7 +6,7 @@ import { TopCreatorsSection } from "@/sections/TopCreatorsSection";
 import { LiveOpportunitiesSection } from "@/sections/LiveOpportunitiesSection";
 import { TrustLocalSection } from "@/sections/TrustLocalSection";
 import { SplitAudienceSection } from "@/sections/SplitAudienceSection";
-import { PricingSection } from "@/sections/PricingSection";
+import { ExploreMapSection } from "@/sections/ExploreMapSection";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <LiveOpportunitiesSection />
         <TrustLocalSection />
         <SplitAudienceSection />
-        <PricingSection />
+        <ExploreMapSection />
       </main>
       <Footer />
     </ExperienceShell>
